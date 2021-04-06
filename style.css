@@ -1,0 +1,28 @@
+body {
+	font-family: sans;
+	display: flex;
+}
+
+#self-desc p {
+	max-width: 40em;
+}
+
+.item {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.item-time {
+	width: 10em;
+}
+
+.item-desc {
+	margin-right: auto;
+}
+
+.item-desc p {
+	min-width: 18em;
+}
+
+
