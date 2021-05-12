@@ -9,8 +9,9 @@ body {
     max-width: 40em;
 }
 
-.main {
+#main {
     max-width: 40em;
+    margin: 5px;
 }
 
 .item {
