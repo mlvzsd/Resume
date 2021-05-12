@@ -1,28 +1,49 @@
 body {
-	font-family: sans;
-	display: flex;
+    font-family: sans;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 #self-desc p {
-	max-width: 40em;
+    max-width: 40em;
+}
+
+.main {
+    max-width: 40em;
 }
 
 .item {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .item-time {
-	width: 10em;
+    width: 10em;
 }
 
 .item-desc {
-	margin-right: auto;
+    margin-right: auto;
 }
 
 .item-desc p {
-	min-width: 18em;
+    min-width: 18em;
 }
 
+#rightbar {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
 
+.no-bottom {
+    margin-bottom: 0px;
+} 
+.no-top {
+    margin-top: 0px;
+} 
+
+#contact {
+    font-size: smaller;
+}
